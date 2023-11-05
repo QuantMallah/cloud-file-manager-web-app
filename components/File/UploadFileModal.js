@@ -1,6 +1,6 @@
 import { doc, getFirestore, setDoc } from "firebase/firestore";
 import React, { useContext } from "react";
-import { app } from "../../Config/FirebaseConfig";
+import { app } from "../../config/FirebaseConfig";
 import { useSession } from "next-auth/react";
 import { ParentFolderIdContext } from "../../context/ParentFolderIdContext";
 import { ShowToastContext } from "../../context/ShowToastContext";

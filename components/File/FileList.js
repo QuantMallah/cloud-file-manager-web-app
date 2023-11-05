@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import FileItem from './FileItem'
 import { deleteDoc, doc, getFirestore } from 'firebase/firestore'
-import { app } from '../../Config/FirebaseConfig'
+import { app } from '../../config/FirebaseConfig'
 import { ShowToastContext } from '../../context/ShowToastContext'
 
 function FileList({fileList}) {

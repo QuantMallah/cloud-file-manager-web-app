@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import SearchBar from '../../components/SearchBar';
 import { ParentFolderIdContext } from '../../context/ParentFolderIdContext';
 import { collection, deleteDoc, doc, getDocs, getFirestore, query, where } from 'firebase/firestore';
-import { app } from '../../Config/FirebaseConfig';
+import { app } from '../../config/FirebaseConfig';
 import { useSession } from 'next-auth/react';
 import FolderList from '../../components/Folder/FolderList';
 import { ShowToastContext } from '../../context/ShowToastContext';

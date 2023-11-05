@@ -8,7 +8,7 @@ import SearchBar from '../components/SearchBar';
 import FolderList from '../components/Folder/FolderList';
 import FileList from '../components/File/FileList';
 import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore';
-import { app } from '../Config/FirebaseConfig';
+import { app } from '../config/FirebaseConfig';
 import { ParentFolderIdContext } from '../context/ParentFolderIdContext';
 import { ShowToastContext } from '../context/ShowToastContext';
 

@@ -1,6 +1,6 @@
 import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore'
 import React, { useEffect, useState } from 'react'
-import { app } from '../../Config/FirebaseConfig'
+import { app } from '../../config/FirebaseConfig'
 import { useSession } from 'next-auth/react'
 import StorageSize from '../../Services/StorageSize';
 
