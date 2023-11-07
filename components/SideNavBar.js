@@ -114,7 +114,7 @@ function SideNavBar() {
             <h2 className='font-semibold text-[17px]'>Cloud Drive</h2>
             <h2 className='text-[13px]'>Is a free  and secure cloud storage to meet all your needs</h2>
             <button className='bg-blue-500 p-2 px-4
-            text-[14px] rounded-lg text-white mt-3'>Begin Now</button>
+            text-[14px] rounded-lg text-white mt-3'>Start Now</button>
         </div>
       
     </div>
